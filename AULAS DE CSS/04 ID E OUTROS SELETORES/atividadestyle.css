@@ -1,0 +1,24 @@
+/* Seletor de classe */
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Seletor de ID */
+#box1 {
+    background-color: lightcoral;
+}
+
+/* Seletor universal */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Seletor de elemento elemento */
+header.footer {
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+}
