@@ -1,0 +1,51 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fundo neutro para destacar as caixas */
+}
+
+header, footer {
+    background-color: #4b0082; /* Roxo escuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.float-left {
+    float: left;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e6e6fa; /* Lavanda */
+    border: 2px solid #9370db; /* Roxo médio */
+    box-sizing: content-box; /* content-box is the default */
+}
+
+.float-right {
+    float: right;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #dda0dd; /* Ameixa clara */
+    border: 2px solid #8a2be2; /* Roxo azul */
+    box-sizing: border-box;
+}
+
+.clear-both{
+    clear: both;
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .float-left, .float-right {
+        float: none;
+        width: auto;
+        margin: 10px 0;
+    }
+}
